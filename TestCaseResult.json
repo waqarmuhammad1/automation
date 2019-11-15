@@ -1,0 +1,26 @@
+{
+    "Test Case1": {
+        "Error": "0",
+        "File": "TestFramework.py",
+        "Function": "getTriangle()",
+        "Input": [
+            "5",
+            "3",
+            "4"
+        ],
+        "Output": "Scalene",
+        "Status": "Pass"
+    },
+    "Test Case2": {
+        "Error": "Side length cannot be zero",
+        "File": "TestFramework.py",
+        "Function": "getTriangleType()",
+        "Input": [
+            "5",
+            "5",
+            "0"
+        ],
+        "Output": "",
+        "Status": "Fail"
+    }
+}

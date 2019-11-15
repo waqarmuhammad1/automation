@@ -1,0 +1,12 @@
+{
+   "build":"python testTriangle.py",
+   "email":"example@mail.com",
+   "<testName>":{
+      "exit":0,
+      "output":"Scalene Triangle",
+      "assert":"==",
+      "input1":4,
+      "input2":5,
+      "input3":6
+      }
+   }
